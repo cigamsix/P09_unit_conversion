@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  /* border: solid 2px red; */
+  width: 50%;
+  height: 50%;
+  min-width: 400px;
+  margin: 10% auto auto auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  padding: 1rem;
+  color: white;
+}
+.container {
+  /* border: solid 2px red; */
+  border-radius: 1rem;
+  text-align: center;
+  padding: 0.1rem;
+}
+
+.result {
+  border-radius: 0 0 1rem 1rem;
+  padding: 1rem;
+  background-color: #1f2937;
+  color: white;
+}
+
+.hero {
+  border-radius: 1rem 1rem 0 0;
+  padding: 1rem;
+  background-color: 6943FF;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+  width: inherit;
+}
+
+.length {
+  background-color: #273549;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+
+.length h3 {
+  color: #ccc1ff;
+}
+
+.volume {
+  background-color: #273549;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+
+.volume h3 {
+  color: #ccc1ff;
+}
+
+.mass {
+  background-color: #273549;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+
+.mass h3 {
+  color: #ccc1ff;
+}
+
+#point {
+  font-size: 58px;
+  border: solid 2px white;
+  color: white;
+  background-color: transparent;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.25rem;
+  width: 150px;
+  text-align: center;
+  /* margin-bottom: 10px; */
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  /* border-radius: 0.5rem; */
+}
